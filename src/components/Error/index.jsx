@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import colors from '../../utils/style/color'
+import colors from '../../utils/style/colors'
 import ErrorImage from '../../assets/404.svg'
 
 const ErrorWrapper = styled.div`

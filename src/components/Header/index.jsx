@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import colors from '../../utils/style/color'
 
 const StyledLink = styled(Link)`
   padding: 15px;
@@ -11,7 +12,7 @@ const StyledLink = styled(Link)`
     `
       color: white;
       border-radius: 30px;
-      background-color: #5843E4
+      background-color: ${colors.primary};
     `}
 `
 
